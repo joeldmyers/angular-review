@@ -28,6 +28,9 @@
     },
     "material": {
       "tags": []
+    },
+    "core-data": {
+      "tags": []
     }
   }
 }
