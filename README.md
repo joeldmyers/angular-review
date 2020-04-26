@@ -13,7 +13,7 @@
 ## Getting started
 
 ```
-npm i -g @angular/cli@
+npm i -g @angular/cli
 npm i -g @nrwl/nx
 npm i -g @nrwl/cli
 npm i -g @nrwl/schematics
