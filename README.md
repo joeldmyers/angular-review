@@ -21,3 +21,6 @@ npx create-nx-workspace angular-core-workshop
 ```
 
 It splits into applications and reusable component libraries.
+
+`cd angular-core-workshop/`
+`npm start`
