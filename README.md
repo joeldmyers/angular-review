@@ -21,3 +21,7 @@ npx create-nx-workspace [project-name-here]
 ```
 
 It splits into applications and reusable component libraries.
+
+Then
+
+`cd my-app && ng config schematics.@nrwl/schematics:component.styleext scss` to get SCSS support

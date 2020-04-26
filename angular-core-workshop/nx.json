@@ -1,5 +1,5 @@
 {
-  "npmScope": "my-app",
+  "npmScope": "angular-core-workshop",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {
@@ -18,5 +18,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "angular-core-workshop": {
+      "tags": []
+    },
+    "angular-core-workshop-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angular-core-workshop"]
+    }
+  }
 }
