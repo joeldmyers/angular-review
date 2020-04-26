@@ -39,3 +39,7 @@ then `ng g c [component-name (same as module name)]`
 ### General notes:
 
 Best to have very light front-end components, with state management abstracted away in libs folder.
+
+### Pro tip -
+
+I can use `<pre>{{ dataName | json }}</pre>` to be able to see the JSON quickly (obviously assuming the dataName is already declared in the component.ts file)
