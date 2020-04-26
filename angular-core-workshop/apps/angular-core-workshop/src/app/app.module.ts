@@ -8,6 +8,13 @@ import { MaterialModule } from '@angular-core-workshop/material';
 import { HomeModule } from './home/home.module';
 import { ProjectsModule } from './projects/projects.module';
 import { CustomersModule } from './customers/customers.module';
+import { ProjectsComponent } from './projects/projects.component';
+import { CustomersComponent } from './customers/customers.component';
+
+const appRoutes: Routes = [
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'customers', component: CustomersComponent }
+];
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,7 +25,7 @@ import { CustomersModule } from './customers/customers.module';
     HomeModule,
     ProjectsModule,
     CustomersModule,
-    RouterModule
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
