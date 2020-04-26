@@ -13,11 +13,11 @@
 ## Getting started
 
 ```
-npm i -g @angular/cli
+npm i -g @angular/cli@9
 npm i -g @nrwl/nx
 npm i -g @nrwl/cli
 npm i -g @nrwl/schematics
-npx create-nx-workspace [project-name-here]
+npx create-nx-workspace angular-core-workshop
 ```
 
 It splits into applications and reusable component libraries.
@@ -25,3 +25,9 @@ It splits into applications and reusable component libraries.
 Then
 
 `cd my-app && ng config schematics.@nrwl/schematics:component.styleext scss` to get SCSS support
+
+Then
+
+`ng g workspace dashboard --routing --style=scss`
+
+-- This creates a dashboard and adds routing (-p=app sets our prefix to be app)
