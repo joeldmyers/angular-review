@@ -4,10 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular-core-workshop/material';
+import { HomeModule } from './home/home.module';
+import { ProjectsModule } from './projects/projects.module';
+import { CustomersModule } from './customers/customers.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, MaterialModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    HomeModule,
+    ProjectsModule,
+    CustomersModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

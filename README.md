@@ -31,6 +31,11 @@ then `ng g lib material`
 
 `npm start`
 
+To create a module (something that would have its own route) -
+`ng g m [module-name] --routing`
+
+then `ng g c [component-name (same as module name)]`
+
 ### General notes:
 
 Best to have very light front-end components, with state management abstracted away in libs folder.
