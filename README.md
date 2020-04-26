@@ -1,6 +1,6 @@
 # angular-review
 
-## Angular (7.x): Some Introductory Notes
+## Angular (v9): Some Introductory Notes
 
 - angular-cli: "batteries included"
   -- Significant difference vs. React - think of Django's CLI, or Laravel's or RoR.
@@ -13,7 +13,7 @@
 ## Getting started
 
 ```
-npm i -g @angular/cli@9
+npm i -g @angular/cli@
 npm i -g @nrwl/nx
 npm i -g @nrwl/cli
 npm i -g @nrwl/schematics
