@@ -25,6 +25,9 @@
     "angular-core-workshop-e2e": {
       "tags": [],
       "implicitDependencies": ["angular-core-workshop"]
+    },
+    "material": {
+      "tags": []
     }
   }
 }

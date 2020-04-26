@@ -20,7 +20,17 @@ npm i -g @nrwl/schematics
 npx create-nx-workspace angular-core-workshop
 ```
 
-It splits into applications and reusable component libraries.
+It splits into applications and reusable component libraries. We can create an Angular app called `angular-core-workshop`
 
 `cd angular-core-workshop/`
+
+- Then add angular material UI component library:
+  `ng add @angular/material`
+
+then `ng g lib material`
+
 `npm start`
+
+### General notes:
+
+Best to have very light front-end components, with state management abstracted away in libs folder.
