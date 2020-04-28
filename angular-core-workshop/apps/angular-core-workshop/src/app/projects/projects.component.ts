@@ -38,5 +38,10 @@ export class ProjectsComponent implements OnInit {
     console.log('selected project: ', project);
   }
 
+  cancel() {
+    console.log('CANCELING');
+    this.selectProject(null);
+  }
+
   ngOnInit(): void {}
 }
