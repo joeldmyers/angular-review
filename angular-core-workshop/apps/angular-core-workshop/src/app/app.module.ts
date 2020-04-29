@@ -25,6 +25,7 @@ const appRoutes: Routes = [
     HomeModule,
     ProjectsModule,
     CustomersModule,
+    UiLoginModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
