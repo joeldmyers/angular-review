@@ -82,3 +82,9 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+
+### Note
+
+Going to abandon this (following Front End Masters course) as there were too many divergences between the Angular 7 demo and Angular v9 for it to be workable.
+
+Will pick up in a different repo here - https://angular.io/start
